@@ -30,16 +30,16 @@ https://developers.google.com/appengine/downloads
 2. Go to your browser of choice and type: **localhost:*port/blog***
 
 ###Other links:
-1.**localhost:*port/blog/***
-2.**localhost:*port/blog/newpost***
-3.**localhost:*port/blog/postID***
-4.**localhost:*port/blog/signup***
-5.**localhost:*port/blog/welcome***
-6.**localhost:*port/blog/login***
-7.**localhost:*port/blog/logout***
-8.**localhost:*port/blog/.json***
-9.**localhost:*port/blog/postID.json***
-10.**localhost:*port/blog/flush/optional(can be an id of the individual post)***
+1. **localhost:*port/blog/***
+2. **localhost:*port/blog/newpost***
+3. **localhost:*port/blog/postID***
+4. **localhost:*port/blog/signup***
+5. **localhost:*port/blog/welcome***
+6. **localhost:*port/blog/login***
+7. **localhost:*port/blog/logout***
+8. **localhost:*port/blog/.json***
+9. **localhost:*port/blog/postID.json***
+10. **localhost:*port/blog/flush/optional(can be an id of the individual post)***
 
 
 ###To Deploy the application to Google do the following:
