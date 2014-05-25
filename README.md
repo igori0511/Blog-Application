@@ -1,11 +1,11 @@
 ###This is a basic blog application on Google App Engine
-####Supports basic functionality of a blog this includes:
+####Basic functionality of this blog is:
 1. Adding new posts
 2. Registration
 3. Loggin
 4. API - return's whole blog as JSON and the individual posts
 
-####Supports Memcached for the fron page and the initial posts
+####Supports Memcached for the front page and the individual posts
 
 
 ###List of handlers:
