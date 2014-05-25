@@ -25,7 +25,7 @@
 ###Download google app engine for Python 2.7 from:
 https://developers.google.com/appengine/downloads
 
-###To start the app localy:
+###To start the app locally:
 1. Add the app to your project list in GAE launcher and click the run button
 2. Go to your browser of choice and type: **localhost:*port***
 
