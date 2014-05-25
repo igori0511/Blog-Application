@@ -1,0 +1,29 @@
+​<!DOCTYPE html>
+
+<html>
+
+  <head>
+     <title> Main blog page</title>
+
+   
+  </head> 
+
+
+   <body>
+
+    {% for entry in blogs %}
+     <hr>
+    <div>     
+      <div>{{entry.subject}}</div>
+      <pre>{{entry.content}}</pre>
+    </div>  
+
+    {% endfor %}
+
+     <br>
+     <p>{{renderTime}}</p>
+    
+   </body>
+
+
+</html>

@@ -1,0 +1,42 @@
+​<!DOCTYPE html>
+
+<html>
+
+  <head>
+     <title> Blog </title>
+
+   <style type="text/css">
+     .color {
+        color: Red;
+
+     }
+
+   </style>
+   
+  </head> 
+
+
+   <body>
+
+    <form method="post">
+      <label>
+        <div>subject</div>
+         <input type="text" name = "subject" value = "{{subject}}">
+      </label>
+
+      <label>
+        <div>blog</div>
+         <textarea name="content" rows="20" cols="50">{{content}}</textarea>
+      </label>
+
+      <div class = "color">{{error}}</div>
+
+      <input type = "submit">
+
+    </form> 
+
+    
+   </body>
+
+
+</html>
