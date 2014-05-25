@@ -5,7 +5,7 @@
 3. Loggin
 4. API - return's whole blog as JSON and the individual posts
 
-####Supports Memcached 
+####Supports Memcached for the fron page and the initial posts
 
 
 ###List of handlers:
@@ -27,7 +27,19 @@ https://developers.google.com/appengine/downloads
 
 ###To start the app locally:
 1. Add the app to your project list in GAE launcher and click the run button
-2. Go to your browser of choice and type: **localhost:*port***
+2. Go to your browser of choice and type: **localhost:*port/blog***
+####Other links:
+**localhost:*port/blog/***
+**localhost:*port/blog/newpost***
+**localhost:*port/blog/postID***
+**localhost:*port/blog/signup***
+**localhost:*port/blog/welcome***
+**localhost:*port/blog/login***
+**localhost:*port/blog/logout***
+**localhost:*port/blog/.json***
+**localhost:*port/blog/postID.json***
+**localhost:*port/blog/flush/optional(can be an id of the individual post)***
+
 
 ###To Deploy the application to Google do the following:
 1. Add the app to your project list in GAE launcher
